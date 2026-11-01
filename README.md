@@ -1,3 +1,10 @@
+Project Overview 
+Ke Wav is is South African youth streetcar band which has its roots in the underground and rebellious youth street culture that dominates the urban centers of Mzansi.
+
+
+
+
+
 WEDE5020-Part1: Building the Foundation
 Plan your Project: Define your target audience, set clear goals and create a detailed project plan.
 Research and Content Gathering: Conduct thorough research to gather relevent content, image and other assets.
@@ -24,5 +31,6 @@ Optimise for SEO: Implement SEO best practices, including keyword optimsation, m
 Create Functional Forms: Design and implement HTML forms with client-side validation.
 Integrate External Services: Embed content from external sources such as Google Maps or YouTube.
 
-References 
+References:
+1.W3Schools.(2026) Css Responsive Web Design. W3Schools Online Web Tutorials.
 
