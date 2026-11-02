@@ -1,9 +1,5 @@
 Project Overview 
-Ke Wav is is South African youth streetcar band which has its roots in the underground and rebellious youth street culture that dominates the urban centers of Mzansi.
-
-
-
-
+Ke Wav is is South African youth streetcar band which has its roots in the underground and rebellious youth street culture that dominates the urban centers of Mzansi. KE WAV sore is a 5 websites and displays store hours with embedded map.
 
 WEDE5020-Part1: Building the Foundation
 Plan your Project: Define your target audience, set clear goals and create a detailed project plan.
@@ -53,8 +49,14 @@ Contact Controls-20 October 2026
 Contact Validation-31  October 2026
 Contact Process Email-31 October 2026
 
+
+LIVE DEPLOYMENT URL:https://kewav.netlify.app
+
 References:
 1.W3Schools.(2026) Css Responsive Web Design. W3Schools Online Web Tutorials.
 2.OpenAI(2026) Product image Avaiblable at: 
 3. Fonts.Google(2026) Icons Available at:https://fonts.google.com/icons?selected=Material+Symbols+Outlined:mail:FILL@1;wght@400;GRAD@0;opsz@24&icon.query=p&icon.size=24&icon.color=%231f1f1f
 4.Pexels(2026) Photo/abstract-graphic-painting Available at:https://www.pexels.com/photo/abstract-graphic-painting-6777423/
+Netlify. (2026). Get started with Netlify CLI & Hosting. Netlify Docs. Available at: https://docs.netlify.app/
+
+The Independent Institute of Education. (2026). Web Development Introduction 1 [Module Manual / Lecture Notes]. The IIE.
