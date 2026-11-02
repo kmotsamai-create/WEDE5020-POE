@@ -1,0 +1,238 @@
+
+html{
+font: 100;
+scroll-behavior: smooth;
+}
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gold;
+        display: flex;
+        align-items: center;
+          gap: 150px; /* Adds spacing between links */
+          border-radius: 20px; /* Rounds the corners of the navigation bar */
+    }
+    ul li{
+float: left;
+    }
+    ul li a{
+display: block;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+    }
+    img  {    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+    }
+
+    
+footer{
+  background-color: rgb(239, 192, 3);
+  padding: 10px;
+  text-align: center;
+  color: rgb(245, 245, 245);
+  border-radius: 20px;
+}
+header{
+  font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+}
+body{
+background-image:url("image/backwallpaper.jpg") ;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+p{
+ font-style: italic;
+  text-align: center;
+  font-size: large;
+}
+h1{
+  font-family: monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+}
+h2{
+  font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+h3{
+  font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  
+}
+img{
+  text-align: center;
+}
+* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #eee3ee;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+/* Responsive screen rule for mobile phones */
+@media screen and (max-width: 480px) {
+    /* Scale body font size down slightly */
+    body {
+        font-size: 0.95rem; /* Shrinks text slightly for mobile screens */
+    
+    }
+  }
+    /* Responsive screen rule for tablets */
+@media screen and (max-width: 768px) {
+    /* Stack header contents vertically on tablets */
+    header {
+        flex-direction: column; /* Positions logo above navigation */
+        gap: 1rem; /* Adds spacing between logo and menu */
+    }
+    /* Scale down font sizes on small screens */
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.4rem; }
+  }
+  table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+  td{
+   text-align: center; 
+  }
+  #submit{
+    background-color: rgb(239, 192, 3);
+  }
+  legend{
+    font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  #error-message{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  button{
+    background-color: rgb(239, 192, 3);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .product img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        .product h3,
+        .product p {
+            padding: 0 15px;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .lightbox.show {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 80%;
+            max-height: 80vh;
+        }
+
+        .lightbox button {
+            position: absolute;
+            color: white;
+            background: none;
+            border: none;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+        .close {
+            top: 15px;
+            right: 25px;
+        }
+
+        .previous {
+            left: 20px;
+        }
+
+        .next {
+            right: 20px;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 15px;
+            color: white;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color:transparent;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #000000;
+        }

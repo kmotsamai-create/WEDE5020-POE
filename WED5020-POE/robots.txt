@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap:User-agent: https://kewav.netlify.app/sitemap.xml

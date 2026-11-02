@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description and Open Graph tags for SEO and social media sharing -->
+    <meta name="description" content="Welcome to KE WAV HUB, your destination for unique streetwear that celebrates African culture and GenZ's style. Explore our collection and connect with us.">
+    <meta property="og:title" content="KE WAV HUB - Unique Streetwear for GenZ">
+    <meta property="og:description" content="Discover KE WAV HUB's streetwear collection, blending African culture with GenZ's style. Shop now for unique fashion that makes a statement.">
+    <meta property="og:image" content="image/KE WAV LOGO.png">
+    <meta property="og:url" content="https://www.kewavhub.co.za/product.html">
+    <meta property="og:type" content="website">
+    <title>KE WAV HUB's products</title>
+     <!-- Link to the exact same CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <!--Product page-->
+  <header>
+    <h1>KE WAV HUB's Products</h1>
+    <img src="image/KE WAV LOGO.png" width="20%"  alt="KE WAV LOGO">
+    <nav> <!-- Begins navigation link area -->
+    <ul>
+        <li ><a href="index.html">Home</a></li><br>
+        <li><a href="about.html">About</a></li><br>
+        <li><a href="contact.html">Contact</a></li> 
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="product.html">Products</a></li>
+    </ul>
+</nav>
+    <h1>We create innovation design with high-quality material.!</h1>
+    <hr>
+    <br>
+<!--Product container-->
+  <div class="container">
+
+    <h1>KE WAV Fashion Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="product">
+            <img src="image/KE Wav black blue shoe.jpeg"
+                 alt="White T-shirt"
+                 data-name="White T-shirt">
+            <h3>KE WAV Shoe</h3>
+            <p>R700</p>
+        </div>
+
+        <div class="product">
+            <img src="image/Black KE WAV PANTS.png"
+                 alt="Denim Jeans"
+                 data-name="Denim Jeans">
+            <h3>Black KE WAV PANTS</h3>
+            <p>R450</p>
+        </div>
+
+        <div class="product">
+            <img src="image/Black KE WAV SHIRT.png"
+                 alt="Fashion Shoes"
+                 data-name="Fashion Shoes">
+            <h3>Black KE WAV SHIRT</h3>
+            <p>R200</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Lightbox Popup -->
+<div class="lightbox" id="lightbox">
+
+    <button class="close" onclick="closeLightbox()">
+        &times;
+    </button>
+
+    <button class="previous" onclick="changeImage(-1)">
+        &#10094;
+    </button>
+
+    <img id="lightboxImage" src="" alt="">
+
+    <button class="next" onclick="changeImage(1)">
+        &#10095;
+    </button>
+
+    <p class="caption" id="caption"></p>
+
+</div>
+
+    <footer>
+        <p>Copyright &copy; 2026 KE WAV HUB. All rights reserved.</p>
+    </footer>
+</body>
+</html>
