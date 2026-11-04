@@ -50,7 +50,7 @@ Contact Validation-31  October 2026
 Contact Process Email-31 October 2026
 
 
-LIVE DEPLOYMENT URL:https://kewav.netlify.app
+LIVE DEPLOYMENT URL: https://timely-lebkuchen-2baa08.netlify.app
 
 References:
 1.W3Schools.(2026) Css Responsive Web Design. W3Schools Online Web Tutorials.
